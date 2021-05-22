@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "ES2020",
+    "target": "ES6",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "esModuleInterop": false,
+    "jsx": "react",
+    "lib": [
+      "ES2015",
+      "DOM"
+    ],
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "strictBindCallApply": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
